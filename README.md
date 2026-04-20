@@ -2,6 +2,10 @@
 
 HexNet is a Python-based pipeline for simulating hexagonal image sampling, computing the Hexagonal Discrete Fourier Transform (HDFT), and performing highly efficient frequency-domain image compression. This repository adapts the logic of `HexFFT.jl` for Python, demonstrating the inherent data dominance of hexagonal grids over standard Cartesian (rectangular) pixel grids.
 
+## 📽️ Video
+Phase 1: https://www.youtube.com/watch?v=7Ts3xIU5_zI
+Phase 2: https://youtu.be/TH2PuhVISWs?si=wxO4DLKrRiIZ41Am
+
 ## 📖 Theoretical Background
 
 Standard digital images are captured and displayed using an orthogonal (rectangular) grid of pixels. However, biological vision systems (like the human fovea) and advanced optical sensors utilize hexagonal lattice structures. 
